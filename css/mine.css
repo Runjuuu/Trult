@@ -16,15 +16,10 @@ header {
 }
 .trultLogo {
 	font-size: 72px;
+	cursor: default;
 }
 .trultLogo h1 {
 	position: relative;
-}
-.trultLogo span {
-	font-size: 16px;
-	position: absolute;
-	right: 10px;
-	bottom: 5px;
 }
 .search {
 	margin: 10px auto 10px auto;
@@ -47,13 +42,19 @@ table {
 	border: none;
 	background-color: #58B2DC;
 }
-@media (max-width : 600px) {
+.butHide {
+	display: none;
+}
+@media (max-width : 700px) {
+	table {
+		width: 100%;
+	}
 	.inp {
-		width: 65%;
+		width: 70%;
 		height: 28px;
 	}
 	.but {
-		width: 30%;
+		width: 100px;
 		height: 34px;
 		font-size: 14px;
 		font-weight: 900;
@@ -62,9 +63,27 @@ table {
 		background-color: #58B2DC;
 	}
 }
-@media (max-width : 360px) {
-	.search {
-		width: 300px;
+@media (max-width : 420px) {
+	table {
+		width: 100%;
+	}
+	.inp {
+		width: 70%;
+		height: 28px;
+	}
+	.but {
+		display: none;
+	}
+	.butHide {
+		position: relative;
+		left: 0;
+		width: 60px;
+		height: 34px;
+		font-size: 14px;
+		font-weight: 900;
+		color: #fff;
+		border: 0;
+		background-color: #58B2DC;
 	}
 }
 .but:hover {
@@ -72,4 +91,22 @@ table {
 }
 .but:active {
 	background-color: #0D5661;
+}
+.runjuu {
+	font-size: 16px;
+	position: absolute;
+	left: 10px;
+	bottom: 5px;
+	color: #fff;
+	cursor: default;
+}
+.trult {
+	font-size: 16px;
+	position: absolute;
+	right: 10px;
+	bottom: 5px;
+	cursor: default;
+}
+footer span:hover {
+	color: #1C1C1C;
 }
