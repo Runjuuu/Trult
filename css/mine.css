@@ -41,9 +41,9 @@ input[type="submit"] {
 }
 textarea,
 input[type="text"] {
-	border-width: 1px;
-	border-style: none none solid solid;
-	border-color: rgba(28,28,28,0.5); 
+	border-width: 2px 1px 1px 2px;
+	border-style: solid;
+	border-color: rgba(28,28,28,0.5) rgba(28,28,28,0.5) rgba(28,28,28,0.5) rgba(28,28,28,0.5); 
 	outline: none; 
 }
 .but input[type="submit"] {
