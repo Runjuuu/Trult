@@ -1,9 +1,9 @@
 @font-face {
-	font-family: 'Futuraaa';
+	font-family: 'Futura';
 	src: url('../fonts/FuturaLTLight.woff');
 }
 body {
-	font-family: 'Futuraaa', sans-serif;
+	font-family: 'Futura', sans-serif;
 	color: #1C1C1C;
 }
 .clearfix:before, .clearfix:after {
@@ -105,11 +105,11 @@ header {
 		display: none;
 	}
 	.inp {
-		width: 70%;
+		width: 65%;
 	}
 	.butHide {
 		display: inline;
-		width: 22%;
+		width: 27%;
 		font-weight: 900;
 		color: #fff;
 		border: 2px solid #58B2DC;
