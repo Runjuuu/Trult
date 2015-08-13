@@ -38,21 +38,21 @@ input[type="submit"] {
 	-webkit-appearance: none;
 	border-radius: 0;
 	-webkit-border-radius: 0;
+	outline: none; 
 }
 textarea,
 input[type="text"] {
 	border-width: 2px 1px 1px 2px;
 	border-style: solid;
-	border-color: rgba(28,28,28,0.5) rgba(28,28,28,0.5) rgba(28,28,28,0.5) rgba(28,28,28,0.5); 
-	outline: none; 
+	border-color: rgba(28,28,28,0.4) rgba(28,28,28,0.4) rgba(28,28,28,0.4) rgba(28,28,28,0.4); 
 }
 .but input[type="submit"] {
 	width: 150px;
 	font-weight: 900;
 	color: #fff;
 	text-align: center;
-	border: 2px solid #58B2DC;
-	background-color: #58B2DC;
+	border: 2px solid #1C1C1C;
+	background-color: #1C1C1C;
 }
 .mid {
 	display: block;
@@ -69,8 +69,8 @@ input[type="text"] {
 	font-weight: 900;
 	color: #fff;
 	text-align: center;
-	border: 2px solid #58B2DC;
-	background-color: #58B2DC;
+	border: 2px solid #1C1C1C;
+	background-color: #1C1C1C;
 }
 .butHide {
 	display: none;
@@ -84,18 +84,26 @@ input[type="text"] {
 		width: 70%;
 	}
 	.but {
+		display: none;
+	}
+	.butHide {
+		display: inline;
 		width: 100px;
+		text-align: center;
 		font-weight: 900;
 		color: #fff;
-		border: 0;
-		background-color: #58B2DC;
+		border: 2px solid #1C1C1C;
+		background-color: #1C1C1C;
 	}
 }
 .but:hover {
-	background-color: #81C7D4;
+	background-color: #434343;
+	border: 2px solid #434343;
 }
 .but:active {
-	background-color: #0D5661;
+	font-size: 0.99rem;
+	border: 2px solid #1C1C1C;
+	background-color: #1C1C1C;
 }
 .runjuu {
 	font-size: 16px;
@@ -139,8 +147,6 @@ input[type="text"] {
 		text-align: center;
 		font-weight: 900;
 		color: #fff;
-		border: 2px solid #58B2DC;
-		background-color: #58B2DC;
 	}
 	.runjuu, 
 	.trult {
