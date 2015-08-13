@@ -14,12 +14,10 @@ header {
 	text-align: center;
 	overflow: hidden;
 }
-.trultLogo {
-	font-size: 72px;
-	cursor: default;
-}
 .trultLogo h1 {
-	position: relative;
+	font-size: 14rem;
+	margin: 60px auto 80px auto;
+	cursor: default;
 }
 .search {
 	margin: 10px auto 10px auto;
@@ -64,6 +62,11 @@ table {
 	}
 }
 @media (max-width : 420px) {
+	.trultLogo h1 {
+		font-size: 6rem;
+		margin: 30px auto 44px auto;
+		cursor: default;
+	}
 	.but {
 		display: none;
 	}
