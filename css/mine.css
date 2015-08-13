@@ -17,8 +17,7 @@ header {
 	overflow: hidden;
 }
 .trultLogo h1 {
-	font-size: 14rem;
-	font-weight: 100;
+	font-size: 14rem
 	margin: 60px auto 80px auto;
 	cursor: default;
 }
@@ -43,7 +42,6 @@ input[type="text"] {
 }
 .but input[type="submit"] {
 	width: 150px;
-	font-weight: 400;
 	color: #fff;
 	text-align: center;
 	border: 2px solid #1C1C1C;
@@ -61,7 +59,6 @@ input[type="text"] {
 }
 .but {
 	width: 150px;
-	font-weight: 400;
 	color: #fff;
 	text-align: center;
 	border: 2px solid #1C1C1C;
@@ -85,7 +82,6 @@ input[type="text"] {
 		display: inline;
 		width: 100px;
 		text-align: center;
-		font-weight: 900;
 		color: #fff;
 		border: 2px solid #1C1C1C;
 		background-color: #1C1C1C;
@@ -142,7 +138,6 @@ input[type="text"] {
 		width: 40%;
 		text-align: center;
 		line-height: 30px;
-		font-weight: 400;
 		color: #fff;
 	}
 	.runjuu, 
