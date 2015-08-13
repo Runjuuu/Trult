@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Futuraaa';
-	src: url('http://7xk0qo.com1.z0.glb.clouddn.com/FuturaLTLight.woff');
+	src: url('../fonts/FuturaLTLight.woff');
 }
 body {
 	font-family: 'Futuraaa', sans-serif;
