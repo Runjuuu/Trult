@@ -49,6 +49,7 @@ header {
 }
 .butHide {
 	display: none;
+	text-align: center;
 }
 @media (max-width : 960px) {
 	table {
@@ -110,6 +111,7 @@ header {
 	.butHide {
 		display: inline;
 		width: 27%;
+		text-align: center;
 		font-weight: 900;
 		color: #fff;
 		border: 2px solid #58B2DC;
