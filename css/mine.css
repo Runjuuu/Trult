@@ -120,11 +120,12 @@ input[type="text"] {
 		display: none;
 	}
 	form {
-		margin: 0 20px 0 20px;
+		margin: 0 5px 0 5px;
+		background-color: red;
 	}
 	.mid {
 		width: 90%;
-		margin: 0 auto 30px auto;
+		margin: 0 auto;
 	}
 	.mobile {
 		display: block;
@@ -138,7 +139,7 @@ input[type="text"] {
 		display: none;
 	}
 	.inp {
-		width: 100%;
+		width: 90%;
 	}
 	.butHide {
 		display: inline;
