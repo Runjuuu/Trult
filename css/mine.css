@@ -6,7 +6,8 @@ body {
 	font-family: 'Futura', sans-serif;
 	color: #1C1C1C;
 }
-.clearfix:before, .clearfix:after {
+.clearfix:before, 
+.clearfix:after {
 	content:"";
 	display:table;
 	clear:both;
@@ -31,8 +32,12 @@ header {
 	width: 100%;
 	text-align: center;
 }
-input {
-	-webkit-appearance: none; 
+textarea,
+input[type="text"],
+input[type="submit"] {
+	-webkit-appearance: none;
+	border-radius: 0;
+	-webkit-border-radius: 0;
 }
 .mid {
 	display: block;
@@ -122,7 +127,8 @@ input {
 		border: 2px solid #58B2DC;
 		background-color: #58B2DC;
 	}
-	.runjuu, .trult {
+	.runjuu, 
+	.trult {
 		font-size: 0.5rem;
 	}
 }
