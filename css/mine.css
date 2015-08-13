@@ -16,8 +16,8 @@ header {
 	text-align: center;
 	overflow: hidden;
 }
-.trultLogo h1 {
-	font-size: 14rem
+.trultLogo {
+	font-size: 14rem;
 	margin: 60px auto 80px auto;
 	cursor: default;
 }
@@ -122,7 +122,7 @@ input[type="text"] {
 	.mobile {
 		display: block;
 	}
-	.trultLogo h1 {
+	.trultLogo {
 		font-size: 6rem;
 		margin: 30px auto 44px auto;
 		cursor: default;
