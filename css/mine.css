@@ -51,15 +51,19 @@ input[type="text"] {
 	display: inline-block;
 	margin: 0 auto 30px auto;
 }
-.mobile {
+.mobile, .inpMo {
 	display: none;
 }
-.inp {
-	width: 350px;
+.inpPc {
+	width: 444px;
+	line-height: 44px;
 }
 .but {
 	width: 150px;
 	color: #fff;
+	font-size: 1.2rem;
+	margin-left: 5px;
+	line-height: 40px;
 	text-align: center;
 	border: 2px solid #1C1C1C;
 	background-color: #1C1C1C;
@@ -72,7 +76,11 @@ input[type="text"] {
 	table {
 		width: 100%;
 	}
-	.inp {
+	.inpPc {
+		display: none;
+	}
+	.inpMo {
+		display: inline;
 		width: 70%;
 	}
 	.but {
@@ -115,12 +123,18 @@ input[type="text"] {
 	.pc {
 		display: none;
 	}
+	.inpPc {
+		display: none;
+	}
 	.mid {
 		width: 90%;
 		margin: 0 auto;
 	}
 	.mobile {
 		display: block;
+	}
+	.inpMo {
+		display: inline;
 	}
 	.trultLogo {
 		font-size: 6rem;
@@ -130,7 +144,7 @@ input[type="text"] {
 	.but {
 		display: none;
 	}
-	.inp {
+	.inpMo {
 		width: 90%;
 	}
 	.butHide {
