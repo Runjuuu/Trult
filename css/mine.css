@@ -39,6 +39,21 @@ input[type="submit"] {
 	border-radius: 0;
 	-webkit-border-radius: 0;
 }
+textarea,
+input[type="text"] {
+	border-width: 1px;
+	border-style: none none solid solid;
+	border-color: rgba(28,28,28,0.5); 
+	outline: none; 
+}
+.but input[type="submit"] {
+	width: 150px;
+	font-weight: 900;
+	color: #fff;
+	text-align: center;
+	border: 2px solid #58B2DC;
+	background-color: #58B2DC;
+}
 .mid {
 	display: block;
 	margin: 0 auto 30px auto;
