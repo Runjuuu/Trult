@@ -43,9 +43,9 @@ input[type="submit"] {
 }
 textarea,
 input[type="text"] {
-	border-width: 2px 1px 1px 2px;
+	border-width: 1px;
 	border-style: solid;
-	border-color: rgba(28,28,28,0.4) rgba(28,28,28,0.4) rgba(28,28,28,0.4) rgba(28,28,28,0.4); 
+	border-color: rgba(28,28,28,0.4); 
 }
 .but input[type="submit"] {
 	width: 150px;
@@ -126,7 +126,7 @@ input[type="text"] {
 		display: none;
 	}
 	.search {
-		width: 100%;
+		width: 90%;
 	}
 	.mobile {
 		display: block;
@@ -140,12 +140,13 @@ input[type="text"] {
 		display: none;
 	}
 	.inp {
-		width: 65%;
+		width: 100%;
 	}
 	.butHide {
 		display: inline;
-		width: 27%;
+		width: 40%;
 		text-align: center;
+		line-height: 30px;
 		font-weight: 900;
 		color: #fff;
 	}
