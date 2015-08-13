@@ -9,6 +9,9 @@ body {
 form {
 	text-align: center;
 }
+.mobile {
+	display: none;
+}
 header {
 	width: 100%;
 	text-align: center;
@@ -61,28 +64,6 @@ table {
 		background-color: #58B2DC;
 	}
 }
-@media (max-width : 420px) {
-	.trultLogo h1 {
-		font-size: 6rem;
-		margin: 30px auto 44px auto;
-		cursor: default;
-	}
-	.but {
-		display: none;
-	}
-	.butHide {
-		display: inline;
-		position: relative;
-		left: 0;
-		width: 60px;
-		height: 34px;
-		font-size: 14px;
-		font-weight: 900;
-		color: #fff;
-		border: 0;
-		background-color: #58B2DC;
-	}
-}
 .but:hover {
 	background-color: #81C7D4;
 }
@@ -104,6 +85,61 @@ table {
 	bottom: 5px;
 	cursor: default;
 }
-footer span:hover {
-	color: #1C1C1C;
+@media (max-width : 420px) {
+	.pc {
+		display: none;
+	}
+	.mobile {
+		display: block;
+	}
+	.trultLogo h1 {
+		font-size: 6rem;
+		margin: 30px auto 44px auto;
+		cursor: default;
+	}
+	.but {
+		display: none;
+	}
+	.butHide {
+		display: inline;
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 60px;
+		height: 34px;
+		font-size: 0.7rem;
+		font-weight: 900;
+		color: #fff;
+		border: 0;
+		background-color: #58B2DC;
+	}
+	.runjuu, .trult {
+		font-size: 0.5rem;
+	}
+}
+@media (max-width : 256px) {
+	.trultLogo h1 {
+		font-size: 4rem;
+		margin: 15px auto 22px auto;
+		cursor: default;
+	}
+	.inp {
+		width: 50%;
+	}
+	.butHide {
+		display: inline;
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 50px;
+		height: 34px;
+		font-size: 0.3rem;
+		font-weight: 900;
+		color: #fff;
+		border: 0;
+		background-color: #58B2DC;
+	}
+}
+.runjuu:hover {
+	color: rgba(28,28,28,0.5);
 }
