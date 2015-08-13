@@ -64,13 +64,6 @@ table {
 	}
 }
 @media (max-width : 420px) {
-	table {
-		width: 100%;
-	}
-	.inp {
-		width: 80%;
-		height: 28px;
-	}
 	.but {
 		display: none;
 	}
