@@ -113,14 +113,14 @@ header {
 		display: none;
 	}
 	.inp {
-		width: 75%;
+		width: 74%;
 		float: left;
 	}
 	.butHide {
 		display: inline;
 		float: right;
 		width: 22%;
-		height: 36px;
+		height: 34px;
 		font-size: 0.7rem;
 		font-weight: 900;
 		color: #fff;
