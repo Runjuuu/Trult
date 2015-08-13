@@ -124,10 +124,9 @@ input[type="text"] {
 	.pc {
 		display: none;
 	}
-	.search {
+	.mid {
 		width: 90%;
-		display: block;
-		margin: 10px auto;
+		margin: 0 auto 30px auto;
 	}
 	.mobile {
 		display: block;
